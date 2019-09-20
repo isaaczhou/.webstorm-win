@@ -1,4 +1,7 @@
 <keymap version="1" name="mac_isa" parent="Mac OS X">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift meta alt f4" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift meta alt up" />
   </action>
