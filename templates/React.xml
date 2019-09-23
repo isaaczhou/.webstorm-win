@@ -199,7 +199,7 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="rafc" value="import React from 'react'&#10;const $COMPONENT$ = () =&gt; {&#10;  return (&#10;      &lt;div&gt;$END$&lt;/div&gt;&#10;  );&#10;};&#10;&#10;export default $COMPONENT$" description="create react arrow function" toReformat="false" toShortenFQNames="true">
+  <template name="rafc" value="import React, {Fragment} from 'react'&#10;const $COMPONENT$ = () =&gt; {&#10;  return (&#10;      &lt;Fragment&gt;$END$&lt;/Fragment&gt;&#10;  );&#10;};&#10;&#10;export default $COMPONENT$" description="create react arrow function" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
